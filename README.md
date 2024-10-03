@@ -1,7 +1,7 @@
 # Tick Battle
 
 ## Project Idea
-The goal of this project is to adapt the [web game Generals.io](www.generals.io) to Android, adding new features and enhancing the gameplay experience.
+The goal of this project is to adapt the [web game Generals.io](https://generals.io/) to Android, adding new features and enhancing the gameplay experience.
 
 ## Game Description
 Tick Battle is a strategy game played on a rectangular field divided into different types of squares. Between 2 to 8 players can battle simultaneously on the field. Each player starts with a single square containing a fortress, and they expand their territory by capturing adjacent lands using their troops.
