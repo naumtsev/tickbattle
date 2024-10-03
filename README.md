@@ -1,20 +1,23 @@
 # Tick Battle
 
-## Идея проекта
-Идея проекта состоит в том, чтобы перенести [web-игру](www.generals.io) на android, добавив в неё новые фичи. 
+## Project Idea
+The goal of this project is to adapt the [web game Generals.io](www.generals.io) to Android, adding new features and enhancing the gameplay experience.
 
-## Описание игры: 
-Игра происходит на прямоугольном поле, разбитом на квадратики разных типов. На поле может сражаться одновременно от 2 до 8 игроков. Каждому игроку в начале выдаётся 1 кубик, в котором располагается крепость. Игрок может захватывать прилегающие к своей территории земли путем передвижений своих войск. Раз в несколько секунд принадлежащие игроку земли генерируют несколько единиц армии. Цель каждого игрока: захватить чужие крепости, при этом не потеряв свою. 
+## Game Description
+Tick Battle is a strategy game played on a rectangular field divided into different types of squares. Between 2 to 8 players can battle simultaneously on the field. Each player starts with a single square containing a fortress, and they expand their territory by capturing adjacent lands using their troops.
 
-### Описание типов квадратов:
-- Крепость - главный квадрат игрока, раз в тик (~секунду) генерирует 1 единицу армии.  
-- Гора - квадрат - преграда, через которую нельзя ходить и которую нельзя захватить. 
-- Нейтральный квадрат - квадрат, после захвата которого, приносит 1 единицу армии раз в 5 тиков.
-- Ферма - изначально нейтральный квадрат, который можно захватить, потратив 40 войск. После захвата приносит 1 войску в 1 тик (1 секунду) игроку. 
- 
-## Механика игры: 
-Игрок перемещает “активный квадрат” по карте, тем самым формируя последовательность ходов на каждый тик. 
-Чтобы захватить квадрат, требуется набрать написанное на нём количество войск и переместить “активный квадрат” в него. Пользователь в любой момент времени может “сбить очередь ходов”, начав формировать последовательность ходов сначала. 
+Every few seconds, the player-owned lands generate army units. The main objective of the game is to capture other players' fortresses while protecting your own.
 
-## Результат:
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/d0uize6Gyo4/0.jpg)](https://www.youtube.com/watch?v=d0uize6Gyo4)
+### Types of Squares
+- **Fortress**: The main square of the player, which generates 1 army unit per tick (~1 second).
+- **Mountain**: An obstacle square that cannot be moved through or captured.
+- **Neutral Square**: A square that, once captured, generates 1 army unit every 5 ticks.
+- **Farm**: Initially a neutral square that can be captured by spending 40 troops. After capture, it provides 1 army unit per tick (1 second).
+
+## Game Mechanics
+Players move an "active square" across the map to create a sequence of moves for each tick. To capture a square, players must gather the required number of troops displayed on it and move the "active square" into that target. At any point, the player can cancel the move queue and start a new sequence of moves.
+
+## Result
+For a quick demonstration of the game, click the link below:
+
+[![Tick Battle Gameplay](https://img.youtube.com/vi/d0uize6Gyo4/0.jpg)](https://www.youtube.com/watch?v=d0uize6Gyo4)
